@@ -1,7 +1,7 @@
  const db = require('./data/dbHelper.js');
 
 
- db.getDish(2)
+ db.getRecipe(1)
  .then(dishes => {
    console.log(dishes);
  }).catch(err => {
